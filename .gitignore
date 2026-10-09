@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+
+# User documents, databases, and generated vector data
+data/uploads/
+data/chroma/
+data/study_assistant.sqlite3
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Tool/editor state
+.streamlit/secrets.toml
+.pytest_cache/
+.ruff_cache/
+.vscode/
